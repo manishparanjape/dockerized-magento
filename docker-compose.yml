@@ -29,7 +29,7 @@ installer:
     - "fullpagecache:redisfullpagecache"
     - "solr:solr"
     - "mysql:mysql"
-  entrypoint: /bin/install.sh
+  #entrypoint: /bin/install.sh
 
 nginx:
   image: nginx:latest
